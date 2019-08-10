@@ -1,0 +1,6 @@
+{
+  "name": "casino-management-app",
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}

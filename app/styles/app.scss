@@ -1,0 +1,67 @@
+//@import "bootstrap";
+
+body{
+  background: #F5F6F7;
+  overflow: hidden;
+}
+
+.jumbotron{
+  padding: 0 0 !important;
+}
+
+.jumbotron-wrapper {
+  background: white;
+  position: absolute;
+  margin: auto;
+  height: 95vh;
+  width: 90%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 30px lightgray;
+  padding: 0 0;
+}
+
+.jumbotron-wrapper-header{
+  text-align: center;
+  padding: 15px 0;
+  font-family: monospace;
+  border-bottom: 1px solid lightgray;
+}
+
+.jumbotron-wrapper-body{
+  height: 100%;
+  text-align: center;
+  padding: 0 0;
+  margin: auto;
+}
+
+.list-inline-item {
+  background: dimgrey;
+  color: white;
+  padding: 10px;
+  margin-left: 0;
+}
+
+.jumbotron-navbar{
+  margin: auto;
+}
+
+.nav-item{
+  padding: 10px;
+}
+
+.games-section{
+  padding: 20px 0 50px;
+  overflow-y: scroll;
+  height: 80%;
+}
+
+.games-item {
+  width: 18%;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid lightgray;
+  display: inline-block;
+}
